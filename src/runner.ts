@@ -131,6 +131,7 @@ const runCommand = async (test: Test, cwd: string, timeout: number): Promise<voi
     env: {
       PATH: process.env['PATH'],
       FORCE_COLOR: 'true',
+      GITHUB_TOKEN: process.env['GITHUB_TOKEN'],
     },
   })
 
